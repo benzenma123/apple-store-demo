@@ -37,7 +37,6 @@ const PRODUCTS = [
     ],
     specs: {
       cpu: [{ label: 'M4 Pro Chip', price: 0 }, { label: 'M4 Max Chip', price: 900 }],
-      ram: [{ label: '18GB Unified Memory', price: 0 }, { label: '36GB Unified Memory', price: 400 }],
       ssd: [{ label: '512GB', price: 0 }, { label: '1TB', price: 200 }],
       ram: [{ label: '18GB Unified Memory', price: 0 }, { label: '36GB Unified Memory', price: 400 }, { label: '128GB Unified Memory', price: 1200 }],
       nic: NIC_OPTIONS
