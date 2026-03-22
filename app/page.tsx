@@ -14,8 +14,7 @@ const EMAILJS_PUBLIC_KEY = 'Ym6azQAZezwF-Oj6H';
 const NIC_OPTIONS = [
   { label: '2.5Gb Ethernet', price: 0 },
   { label: '10Gb Ethernet (RJ45)', price: 100 },
-  { label: '10Gb Ethernet (SFP+)', price: 150 },
-  { label: 'No NIC', price: 0 }
+  { label: '10Gb Ethernet (SFP+)', price: 150 }
 ];
 
 const PRODUCTS = [
@@ -71,22 +70,24 @@ const PRODUCTS = [
     colors: [{ name: 'Silver', code: '#e3e4e5', img: 'https://ipowerresale.com/cdn/shop/files/media_01a10052-b554-4944-8244-10bbdd908256.png?v=1761066570' }],
     specs: {
       cpu: [
-        { label: 'Apple M5 Ultra (Base)', price: 0 }, 
-        { label: 'Intel Xeon Silver 4314 (16-core)', price: 800 },
-        { label: 'Intel Xeon Gold 6338 (32-core)', price: 2500 },
-        { label: 'Intel Xeon Platinum 8380 (40-core)', price: 5000 },
-        { label: 'AMD EPYC 9654 (96-core)', price: 7500 }
+        { label: 'Dual Apple M5 Ultra (Base)', price: 0 }, 
+        { label: 'Dual Intel Xeon Silver 4314 (16-core)', price: 1660 },
+        { label: 'Dual Intel Xeon Gold 6338 (32-core)', price: 5000 },
+        { label: 'Dual Intel Xeon Platinum 8380 (40-core)', price: 15000 },
+        { label: 'Dual AMD EPYC 9654 (96-core)', price: 19000 },
+        { label: 'Quadriple AMD Threadripper Pro 9995WX (96-core)', price: 25000 }
       ],
       gpu: [
         { label: 'Integrated / Base GPU', price: 0 },
-        { label: 'Radeon Pro W6800X Duo', price: 2400 },
-        { label: 'NVIDIA RTX 4090 24GB', price: 1800 },
-        { label: 'NVIDIA RTX 6000 Ada 64GB', price: 3600 },
+        { label: 'Triple Radeon Pro W6800X Duo', price: 4960 },
+        { label: 'Triple NVIDIA RTX 4090 24GB', price: 3600 },
+        { label: 'Quadriple NVIDIA RTX 6000 Ada 64GB', price: 7200 },
       ],
       ram: [
         { label: '64GB Unified Memory', price: 0 }, 
         { label: '192GB Unified Memory', price: 800 },
         { label: '384GB Unified Memory', price: 1600 }, 
+        { label: '768GB Unified Memory', price: 3200 },
         { label: '5TB Server ECC Memory', price: 6000 },
       ],
       ssd: [
