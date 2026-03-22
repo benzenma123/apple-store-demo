@@ -15,6 +15,7 @@ const NIC_OPTIONS = [
   { label: '2.5Gb Ethernet', price: 0 },
   { label: '10Gb Ethernet (RJ45)', price: 100 },
   { label: '10Gb Ethernet (SFP+)', price: 150 }
+  { label: 'No NIC' }
 ];
 
 const PRODUCTS = [
