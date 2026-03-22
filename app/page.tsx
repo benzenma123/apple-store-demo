@@ -21,7 +21,7 @@ const PRODUCTS = [
   {
     id: 'iphone-16-pro', category: 'iphone', name: 'iPhone 16 Pro', chip: 'A18 Pro', basePrice: 999, 
     colors: [
-      { name: 'Black Titanium', code: '#3c3c3d', img: 'https://m.media-amazon.com/images/I/51MCIUhxvZL.jpg' },
+      { name: 'Black Titanium', code: '#3c3c3d', img: 'https://pngimg.com/d/iphone16_PNG7.png' },
       { name: 'Desert Titanium', code: '#cbb8a3', img: 'https://m.media-amazon.com/images/I/61U1XRJMAML._AC_UF894,1000_QL80_.jpg' }
     ],
     specs: {
@@ -45,7 +45,7 @@ const PRODUCTS = [
   { 
     id: 'imac', category: 'mac', name: 'iMac 24"', chip: 'M4', basePrice: 1299, 
     colors: [
-      { name: 'Blue', code: '#a2b9d3', img: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/refurb-imac-24-no-id-blue-2021?wid=2000&hei=2000&fmt=jpeg&qlt=90&.v=1638564538000' },
+      { name: 'Blue', code: '#a2b9d3', img: 'https://cdn.shopify.com/s/files/1/0024/9803/5810/files/686825-Product-0-I-638657536809989990.jpg?v=1738188554' },
       { name: 'Pink', code: '#e9a7ad', img: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/refurb-imac-24-touch-id-pink-202402?wid=2000&hei=2000&fmt=jpeg&qlt=90&.v=1709178834972' }
     ],
     specs: {
@@ -57,7 +57,7 @@ const PRODUCTS = [
   },
   { 
     id: 'studio', category: 'mac', name: 'Mac Studio', chip: 'M2 Ultra', basePrice: 1999, 
-    colors: [{ name: 'Silver', code: '#e3e4e5', img: 'https://images.macrumors.com/article-new/2022/03/mac-studio-front.jpg' }],
+    colors: [{ name: 'Silver', code: '#e3e4e5', img: 'https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mac-studio-2025.png' }],
     specs: {
       cpu: [{ label: 'M2 Max', price: 0 }, { label: 'M2 Ultra', price: 2000 }],
       ssd: [{ label: '512GB', price: 0 }, { label: '1TB', price: 200 }, { label: '2TB', price: 600 }],
@@ -67,7 +67,7 @@ const PRODUCTS = [
   },
   { 
     id: 'mac-pro', category: 'mac', name: 'Mac Pro', chip: 'Custom Server', basePrice: 6999, 
-    colors: [{ name: 'Silver', code: '#e3e4e5', img: 'https://expercom.com/cdn/shop/files/Mac_Pro_Tower_M2_Ultra_PDP_Image_Position-1__en-US.jpg?v=1685999543&width=1946' }],
+    colors: [{ name: 'Silver', code: '#e3e4e5', img: 'https://ipowerresale.com/cdn/shop/files/media_01a10052-b554-4944-8244-10bbdd908256.png?v=1761066570' }],
     specs: {
       cpu: [
         { label: 'Apple M5 Ultra (Base)', price: 0 }, 
@@ -120,8 +120,8 @@ const PRODUCTS = [
   { 
     id: 'airpods-max', category: 'accessories', name: 'AirPods Max', chip: 'H2', basePrice: 549, 
     colors: [
-      { name: 'Midnight', code: '#1d1d1f', img: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-max-select-202409-midnight_FV1_FMT_WHH?wid=752&hei=636&fmt=jpeg&qlt=90&.v=azQxRkVJKzd6V3J0aGNqWFhLMzBmdmVWNWdHYnp5cHkwMldsSElEOHpyd2ttdW5wTmRBL1NETnlMVldNRXJ0RFZOSzlQRTFSbHNFZCtKQi9Wc2w5b3I2TGhYaGhMVkJpQ2RGWWVURTZNbXphV29iOFBIcjE1bWVvKzVNUlpwYys' },
-      { name: 'Starlight', code: '#faf0e6', img: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-max-select-202409-starlight_FMT_WHH?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1724927451260' }
+      { name: 'Midnight', code: '#1d1d1f', img: 'https://9to5toys.com/wp-content/uploads/sites/5/2025/07/AirPods-Max-Midnight.jpg?quality=82&strip=all&w=1600' },
+      { name: 'Starlight', code: '#faf0e6', img: 'https://shopowltech.com/media/catalog/product/cache/26228c64a1d76a1479e7cc55771b2e97/9/5/95945e3fStarlight_20_28Side_29.png' }
     ],
     specs: {
       model: [{ label: 'Standard', price: 0 }]
@@ -129,7 +129,7 @@ const PRODUCTS = [
   },
   { 
     id: 'magic-keyboard', category: 'accessories', name: 'Magic Keyboard', chip: 'Wireless', basePrice: 199, 
-    colors: [{ name: 'White', code: '#ffffff', img: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXCL3?wid=4000&hei=4000&fmt=jpeg&qlt=90&.v=1728939673942' }],
+    colors: [{ name: 'White', code: '#ffffff', img: 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Apple_Magic_Keyboard_-_US_remix_transparent.png' }],
     specs: {
       model: [{ label: 'US English', price: 0 }, { label: 'Vietnamese', price: 0 }]
     }
@@ -137,7 +137,7 @@ const PRODUCTS = [
   { 
     id: 'magic-mouse', category: 'accessories', name: 'Magic Mouse', chip: 'Wireless', basePrice: 79, 
     colors: [
-      { name: 'White', code: '#ffffff', img: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK2E3?wid=1144&hei=1144&fmt=jpeg' },
+      { name: 'White', code: '#ffffff', img: 'https://toppng.com/uploads/thumbnail/apple-mla02za-a-magic-mouse-2-115497881996ytcixprph.png' },
       { name: 'Black', code: '#1d1d1f', img: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MMMQ3?wid=1144&hei=1144&fmt=jpeg' }
     ],
     specs: {
@@ -146,7 +146,7 @@ const PRODUCTS = [
   },
   { 
     id: 'ssd-acpi', category: 'accessories', name: 'SSD For Mac (ACPI)', chip: 'ACPI (PCIE)', basePrice: 199, 
-    colors: [{ name: 'Space Gray', code: '#545558', img: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MR3C3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=L0IyMEtHVG9ja1c1cUw5RGd6ZERNUWtuVHYzMERCZURia3c5SzJFOTlPaWNSWkh5WG5hZjRXaTYxWU1vaEVCOWlMaHh5QUFWNGpnbkZTbWYybS9JaUE' }],
+    colors: [{ name: 'Space Gray', code: '#545558', img: 'https://www.bhphotovideo.com/images/fb/apple_mxnq2am_a_4tb_ssd_kit_for_1570292.jpg' }],
     specs: {
       ssd: [{ label: '1TB', price: 0 }, { label: '2TB', price: 200 }, { label: '4TB', price: 600 }, { label: '8TB', price: 1200 }, { label: '16TB', price: 3000 }, { label: '32TB', price: 4500 }, { label: '64TB', price: 7000}]
     }
@@ -154,8 +154,8 @@ const PRODUCTS = [
   { 
     id: 'mb-air-m5', category: 'mac', name: 'MacBook Air (M5)', chip: 'M5', basePrice: 1099, 
     colors: [
-      { name: 'Midnight', code: '#2e3641', img: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-midnight-select-202403?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1707847683745' },
-      { name: 'Starlight', code: '#faf0e6', img: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-starlight-select-202403?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1707847683945' }
+      { name: 'Midnight', code: '#2e3641', img: 'https://www.apple.com/v/macbook-air/y/images/overview/hero/hero_endframe__c67cz35iy9me_large.png' },
+      { name: 'Starlight', code: '#faf0e6', img: 'https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50098293_1050999.png?v=1773185199' }
     ],
     specs: {
       model: [{ label: '13-inch', price: 0 }, { label: '15-inch', price: 200 }],
@@ -166,7 +166,7 @@ const PRODUCTS = [
   },
   { 
     id: 'mb-neo', category: 'mac', name: 'MacBook Neo', chip: 'M5', basePrice: 799, 
-    colors: [{ name: 'Silver', code: '#e3e4e5', img: 'https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP813/mbp13touch-silver.png' }],
+    colors: [{ name: 'Silver', code: '#e3e4e5', img: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-specs-options-select-202603-silver?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=aXdUbnVNSHBKZTgyUzlKYTQ3UG0ySko5NzJ2Z3dVQzlTT2FtR1JERDVwcDdDaFd2ZkVvT014dzlUcURhc0JhenJUNGJWZ1llU1plZmhBekVhZm5NQnJ4YnM0WFduSzYyM1pGalVqQlB0d0lHb3JuMTZBRld0YTRsRERmUTFTT2VFZ2pKQkI0V0ZnZDIvNGZqaEFxNlVn&traceId=1' }],
     specs: {
       model: [{ label: '13-inch Ultra-Portable', price: 0 }],
       ssd: [{ label: '256GB', price: 0 }, { label: '512GB', price: 150 }]
@@ -174,7 +174,7 @@ const PRODUCTS = [
   },
   { 
     id: 'studio-display-2', category: 'accessories', name: 'Studio Display 2', chip: 'A15 Bionic', basePrice: 1799, 
-    colors: [{ name: 'Silver', code: '#e3e4e5', img: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/studio-display-gallery-1-202203?wid=640&hei=528&fmt=p-jpg&qlt=95&.v=1645593301010' }],
+    colors: [{ name: 'Silver', code: '#e3e4e5', img: 'https://p.turbosquid.com/ts-thumb/Zt/XoUNLT/r3/apple_studio_display_01/jpg/1667322451/1920x1080/fit_q87/6705d0e72daec4121d897235b16c23abb43b321c/apple_studio_display_01.jpg' }],
     specs: {
       model: [{ label: 'Standard Glass', price: 0 }, { label: 'Nano-texture Glass', price: 300 }],
       stand: [{ label: 'Tilt-adjustable', price: 0 }, { label: 'Tilt- and height-adjustable', price: 400 }]
@@ -255,7 +255,22 @@ export default function AppleStore() {
       user_name: user?.name || "Ben Store Customer",
       user_email: email, 
       order_id: orderId,
-      order_details: cart.map(item => `${item.name} (${item.details})`).join(', '),
+      order_details: cart.map((item: any) => `
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="margin-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+    <tr>
+      <td width="120" valign="top" style="padding-right: 20px;">
+        <div style="background-color: #f5f5f7; border-radius: 12px; padding: 10px;">
+          <img src="${item.img}" width="100" style="display: block; object-fit: contain;" alt="${item.name}">
+        </div>
+      </td>
+      <td valign="top" style="padding-top: 5px;">
+        <p style="margin: 0 0 5px 0; color: #0071e3; font-weight: 700; font-size: 16px;">• ${item.name}</p>
+        <p style="margin: 0 0 10px 0; color: #86868b; font-size: 13px; line-height: 1.5;">${item.details}</p>
+        <p style="margin: 0; color: #1c1c1e; font-weight: 600; font-size: 14px;">Giá: ${formatUSD(item.price)}</p>
+      </td>
+    </tr>
+  </table>
+`).join(''),
       total_price: formatUSD(totalCartPrice),
       product_image: cart.length > 0 ? cart[0].img : '',
     };
