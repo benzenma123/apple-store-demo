@@ -18,7 +18,7 @@ const NIC_OPTIONS = [
 ];
 
 const PRODUCTS = [
-  { 
+  {
     id: 'iphone-16-pro', category: 'iphone', name: 'iPhone 16 Pro', chip: 'A18 Pro', basePrice: 999, 
     colors: [
       { name: 'Black Titanium', code: '#3c3c3d', img: 'https://m.media-amazon.com/images/I/51MCIUhxvZL.jpg' },
@@ -79,12 +79,14 @@ const PRODUCTS = [
       gpu: [
         { label: 'Integrated / Base GPU', price: 0 },
         { label: 'Radeon Pro W6800X Duo', price: 2400 },
-        { label: 'NVIDIA RTX 4090 24GB', price: 1800 }
+        { label: 'NVIDIA RTX 4090 24GB', price: 1800 },
+        { label: 'NVIDIA RTX 6000 Ada 64GB', price: 3600 },
       ],
       ram: [
         { label: '64GB Unified Memory', price: 0 }, 
-        { label: '192GB Unified Memory', price: 800 }, 
-        { label: '5TB Server ECC Memory', price: 6000 }
+        { label: '192GB Unified Memory', price: 800 },
+        { label: '384GB Unified Memory', price: 1600 }, 
+        { label: '5TB Server ECC Memory', price: 6000 },
       ],
       ssd: [
         { label: '1TB NVMe SSD', price: 0 }, 
