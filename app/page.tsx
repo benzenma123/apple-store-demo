@@ -150,6 +150,44 @@ const PRODUCTS = [
     specs: {
       ssd: [{ label: '1TB', price: 0 }, { label: '2TB', price: 200 }, { label: '4TB', price: 600 }, { label: '8TB', price: 1200 }, { label: '16TB', price: 3000 }, { label: '32TB', price: 4500 }, { label: '64TB', price: 7000}]
     }
+  },
+  { 
+    id: 'mb-air-m5', category: 'mac', name: 'MacBook Air (M5)', chip: 'M5', basePrice: 1099, 
+    colors: [
+      { name: 'Midnight', code: '#2e3641', img: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-midnight-select-202403?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1707847683745' },
+      { name: 'Starlight', code: '#faf0e6', img: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-starlight-select-202403?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1707847683945' }
+    ],
+    specs: {
+      model: [{ label: '13-inch', price: 0 }, { label: '15-inch', price: 200 }],
+      cpu: [{ label: 'M5 Chip (8-core)', price: 0 }, { label: 'M5 Chip (10-core)', price: 150 }],
+      ram: [{ label: '16GB Unified Memory', price: 0 }, { label: '24GB', price: 200 }],
+      ssd: [{ label: '256GB', price: 0 }, { label: '512GB', price: 200 }]
+    }
+  },
+  { 
+    id: 'mb-neo', category: 'mac', name: 'MacBook Neo', chip: 'M5', basePrice: 799, 
+    colors: [{ name: 'Silver', code: '#e3e4e5', img: 'https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP813/mbp13touch-silver.png' }],
+    specs: {
+      model: [{ label: '13-inch Ultra-Portable', price: 0 }],
+      ssd: [{ label: '256GB', price: 0 }, { label: '512GB', price: 150 }]
+    }
+  },
+  { 
+    id: 'studio-display-2', category: 'accessories', name: 'Studio Display 2', chip: 'A15 Bionic', basePrice: 1799, 
+    colors: [{ name: 'Silver', code: '#e3e4e5', img: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/studio-display-gallery-1-202203?wid=640&hei=528&fmt=p-jpg&qlt=95&.v=1645593301010' }],
+    specs: {
+      model: [{ label: 'Standard Glass', price: 0 }, { label: 'Nano-texture Glass', price: 300 }],
+      stand: [{ label: 'Tilt-adjustable', price: 0 }, { label: 'Tilt- and height-adjustable', price: 400 }]
+    }
+  },
+  { 
+    id: 'mbp-m5', category: 'mac', name: 'MacBook Pro (M5)', chip: 'M5 Pro', basePrice: 1999, 
+    colors: [{ name: 'Space Black', code: '#1d1d1f', img: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-m3-max-pro-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697311054290' }],
+    specs: {
+      cpu: [{ label: 'M5 Pro Chip', price: 0 }, { label: 'M5 Max Chip', price: 800 }],
+      ram: [{ label: '36GB', price: 0 }, { label: '64GB', price: 400 }, { label: '128GB', price: 1000 }],
+      ssd: [{ label: '512GB', price: 0 }, { label: '1TB', price: 200 }]
+    }
   }
 ];
 
