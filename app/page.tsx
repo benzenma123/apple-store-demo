@@ -82,6 +82,7 @@ const PRODUCTS = [
         { label: 'Triple Radeon Pro W6800X Duo', price: 4960 },
         { label: 'Triple NVIDIA RTX 4090 24GB', price: 3600 },
         { label: 'Quadriple NVIDIA RTX 6000 Ada 64GB', price: 7200 },
+        { label: '10 Quadro RTX 8000 (1TB)', price: 1000000 }
       ],
       ram: [
         { label: '64GB Unified Memory', price: 0 }, 
@@ -94,6 +95,43 @@ const PRODUCTS = [
         { label: '1TB NVMe SSD', price: 0 }, 
         { label: '4TB NVMe SSD', price: 1000 }, 
         { label: '1PB NVMe Array', price: 9000 }
+      ],
+      nic: NIC_OPTIONS
+    }
+  },
+  { 
+    id: 'xserve-g5-sleeper', 
+    category: 'mac', 
+    name: 'Xserve G5 (Sleeper Server)', 
+    chip: 'M3 Ultra / Dual Xeon', 
+    basePrice: 2499, 
+    colors: [
+      { name: 'Silver Aluminum', code: '#c0c0c0', img: 'https://upload.wikimedia.org/wikipedia/commons/0/06/Xserve_RAID.jpg' } 
+    ],
+    specs: {
+      cpu: [
+        { label: 'Apple M3 Ultra (24-core)', price: 0 },
+        { label: 'Dual Intel Xeon Platinum 8490H', price: 12000 },
+        { label: 'AMD EPYC 9754 (128-core)', price: 15000 },
+        { label: 'Intel Xeon 6 6900 (144-core)', price: 18000 }
+      ],
+      ram: [
+        { label: '128GB DDR5 ECC', price: 0 },
+        { label: '512GB DDR5 ECC', price: 2500 },
+        { label: '2TB Server RAM', price: 8000 }
+      ],
+      gpu: [
+        { label: 'Integrated / Base GPU', price: 0 },
+        { label: 'Triple Radeon Pro W6800X Duo', price: 4960 },
+        { label: 'Triple NVIDIA RTX 4090 24GB', price: 3600 },
+        { label: 'Quadriple NVIDIA RTX 6000 Ada 64GB', price: 7200 },
+        { label: '10 Quadro RTX 8000 (1TB)', price: 1000000 }
+      ],
+      ssd: [
+        { label: '2TB NVMe Gen5', price: 0 },
+        { label: '16TB Enterprise SSD', price: 1800 },
+        { label: '100TB RAID Storage', price: 5500 },
+        { label: '1ZB NVMe RAID', price: 30000 }
       ],
       nic: NIC_OPTIONS
     }
