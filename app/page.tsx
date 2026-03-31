@@ -14,7 +14,9 @@ const EMAILJS_PUBLIC_KEY = 'Ym6azQAZezwF-Oj6H';
 const NIC_OPTIONS = [
   { label: '2.5Gb Ethernet', price: 0 },
   { label: '10Gb Ethernet (RJ45)', price: 100 },
-  { label: '10Gb Ethernet (SFP+)', price: 150 }
+  { label: '10Gb Ethernet (SFP+)', price: 150 },
+  { label: '50Gb Ethernet SCC+ (Proprititary)', price: 150 },
+  { label: '100Gb Ethernet SPA++ (Proprititary)', price: 1000}
 ];
 
 const PRODUCTS = [
@@ -94,7 +96,9 @@ const PRODUCTS = [
       ssd: [
         { label: '1TB NVMe SSD', price: 0 }, 
         { label: '4TB NVMe SSD', price: 1000 }, 
-        { label: '1PB NVMe Array', price: 9000 }
+        { label: '1PB NVMe Array', price: 9000 },
+        { label: '10ZB HDD (20k RPM) + NVMe SSD (RAID)', price: 1000000},
+        { label: '100ZB HDD (100k RPM 5GB/s)', price: 100000000}
       ],
       nic: NIC_OPTIONS
     }
@@ -113,7 +117,8 @@ const PRODUCTS = [
         { label: 'Apple M3 Ultra (24-core)', price: 0 },
         { label: 'Dual Intel Xeon Platinum 8490H', price: 12000 },
         { label: 'AMD EPYC 9754 (128-core)', price: 15000 },
-        { label: 'Intel Xeon 6 6900 (144-core)', price: 18000 }
+        { label: 'Intel Xeon 6 6900 (144-core)', price: 18000 },
+        { label: 'Quadriple Intel Xeon 6 6900 (576-core', price: 10000000 }
       ],
       ram: [
         { label: '128GB DDR5 ECC', price: 0 },
@@ -188,7 +193,7 @@ const PRODUCTS = [
     id: 'ssd-acpi', category: 'accessories', name: 'SSD For Mac (ACPI)', chip: 'ACPI (PCIE)', basePrice: 199, 
     colors: [{ name: 'Space Gray', code: '#545558', img: 'https://www.bhphotovideo.com/images/fb/apple_mxnq2am_a_4tb_ssd_kit_for_1570292.jpg' }],
     specs: {
-      ssd: [{ label: '1TB', price: 0 }, { label: '2TB', price: 200 }, { label: '4TB', price: 600 }, { label: '8TB', price: 1200 }, { label: '16TB', price: 3000 }, { label: '32TB', price: 4500 }, { label: '64TB', price: 7000}]
+      ssd: [{ label: '1TB', price: 0 }, { label: '2TB', price: 200 }, { label: '4TB', price: 600 }, { label: '8TB', price: 1200 }, { label: '16TB', price: 3000 }, { label: '32TB', price: 4500 }, { label: '64TB', price: 7000}, { label: '1024ZB', price: '100000000000000000'}]
     }
   },
   { 
