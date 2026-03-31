@@ -118,10 +118,12 @@ const PRODUCTS = [
         { label: 'Dual Intel Xeon Platinum 8490H', price: 12000 },
         { label: 'AMD EPYC 9754 (128-core)', price: 15000 },
         { label: 'Intel Xeon 6 6900 (144-core)', price: 18000 },
-        { label: 'Quadriple Intel Xeon 6 6900 (576-core', price: 10000000 }
+        { label: 'Quadriple Intel Xeon 6 6900 (576-core', price: 10000000 },
+        { label: '10 AMD Threadripper 9995WX (960-core)', price: 100000000000000000000000000000 }
       ],
       ram: [
         { label: '128GB DDR5 ECC', price: 0 },
+        { label: '256GB DDR5 ECC', price: 1000 },
         { label: '512GB DDR5 ECC', price: 2500 },
         { label: '2TB Server RAM', price: 8000 }
       ],
